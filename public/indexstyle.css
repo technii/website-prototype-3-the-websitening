@@ -17,17 +17,21 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-bottom: 3%;
 }
 .WindowContent {
+    display: flex;
+    flex-direction: row;
     margin: auto;
 }   
 .WindowNavBar {
-    display: block;
-    
-    margin-right: 75%
+    padding-right: 3%;
+    display: flex;
 }
 .WindowMainContent{
-    margin-left: 25%
+    margin: auto;
+}
+.WindowNavLinks {
+    display: flex;
+    flex-direction: column;
 }
 
