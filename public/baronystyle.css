@@ -1,0 +1,25 @@
+body{
+    background: image-set("/baronybg.jpeg");
+    background-repeat: repeat;
+    background-size: 12%,12%
+}
+.title{
+    color: white;
+}
+.Scrolls ul{
+    columns: 1;
+    
+}
+.list{
+    margin: 5%;
+    font-size: 64px;
+    
+}
+.Scrolls li{
+    color: aliceblue;
+    
+}
+.Scrolls a{
+    text-decoration: none;
+    color: aliceblue;
+}

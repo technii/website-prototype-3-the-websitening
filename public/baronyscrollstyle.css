@@ -1,0 +1,27 @@
+.GridBorder{
+    margin: 5%;
+    padding:20px 10px;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+    margin: 0; padding: 0;
+    columns: 4;
+    height: auto;
+}
+li {
+    border: 135px 135px;
+    border-style: groove;
+    display: inline-block;
+    width: auto;
+    height: auto;
+    list-style-type: none;
+    padding : 10px 10px;
+    flex-wrap: nowrap;
+}
+.grid{
+    display: flex;
+    flex: 1;
+    overflow: auto;
+}
